@@ -15,35 +15,31 @@ Instant Translation: Automatically translates recognized speech into English usi
 Error Handling: Includes basic error handling for cases where speech is not recognized.
 
 **Prerequisites**
-Python 3.x installed on your system.
+-Python 3.x installed on your system.
 
-Required Python packages: speech_recognition, googletrans.
+-Required Python packages: speech_recognition, googletrans.
 
 **Installation**
 
 Clone the Repository:
-sh
-Copy code
+
 git clone url
-cd speech-to-text-translator
 
 Install Required Python Packages:
 
-sh
-Copy code
-pip install speechrecognition googletrans==4.0.0-rc1 pyaudio
+-pip install speechrecognition googletrans==4.0.0-rc1 pyaudio
+
 Note: You may need to install PyAudio separately, depending on your system. For Windows:
 
-sh
-Copy code
-pip install pipwin
-pipwin install pyaudio
+-pip install pipwin
+
+-pipwin install pyaudio
+
 Usage
+
 Run the Script:
 
-sh
-Copy code
-python main.py
+-python main.py
 
 Speak into the Microphone:
 
@@ -53,16 +49,11 @@ The recognized text will then be translated into English and displayed.
 
 Supported Languages:
 
-
 Modify the script to change the source language (src) in the translate() method if you want to support additional languages.
 
-File Structure
+**File Structure**
 
-bash
-Copy code
 speech-to-text-translator/
-
-│
 
 ├── main.py                # Main script for speech recognition and translation
 
@@ -72,7 +63,8 @@ speech-to-text-translator/
 
 └── __init__.py            # Package initializer (if needed)
 
-Customization
+**Customization**
+
 Source and Destination Languages: You can easily customize the source (src) and destination (dest) languages in the translation part of the code to support other language pairs.
 
 Error Handling: Modify the try-except blocks to provide more detailed error messages or to handle specific types of exceptions.
