@@ -23,7 +23,7 @@ Error Handling: Includes basic error handling for cases where speech is not reco
 
 Clone the Repository:
 
-git clone url
+-git clone url
 
 Install Required Python Packages:
 
